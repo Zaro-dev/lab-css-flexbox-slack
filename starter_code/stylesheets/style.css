@@ -8,8 +8,11 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
-
+html{
+    margin: 0px;
+}
 body{
+    font-size: 2em;
     margin: 0px;
 }
 
@@ -30,6 +33,7 @@ body{
 }
 
 #navbar ul{
+    font-size: 0.5em;
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -57,6 +61,7 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+    padding-left: 50px;
 }
 
 #leftHeader p span{
@@ -64,19 +69,60 @@ body{
 }
 
 #rightHeader{
+ 
     width: 50%;
     display: flex;
     align-items: center;
 }
 
 #header button{
-    width: 35vw;
+
+    width: 45vw;
     text-transform: uppercase;
     font-weight: 700;
     border-radius: 5%;
-    height: 4vh;
-    font-size: 70%;
-    text-align: center;
+    height: 6vh;
+    font-size: 0.4em;
+
+}
+.purpple{
+    color: #540B51;
+}
+.button-blue{
+    margin-top: 15px;
+    padding-right: 140px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background-color:#4285F4;
+}
+header{
+    margin: 0px;
+}
+.button-blue img{
+    padding: 8px;
+    background-color: white;
+    border-radius: 5%;
+}
+main .logos{
+    height: 20vh;
+    margin: 0px;
+    background-color: #F3EAE2;
+}
+main p{
+    margin-top: 0px;
+    font-weight: 800;
+    font-size: 0.5em;
+    text-transform: uppercase;
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main div{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 
